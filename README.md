@@ -1,5 +1,6 @@
 # pact_gem_example
 Sample application using Rails pact gem.
+```bash
 ##Important files
 spec/pacts/*.rb
 spec/service_consumers/*.rb
