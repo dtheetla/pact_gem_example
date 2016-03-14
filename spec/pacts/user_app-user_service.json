@@ -1,0 +1,31 @@
+{
+  "consumer": {
+    "name": "User App"
+  },
+  "provider": {
+    "name": "User Service"
+  },
+  "interactions": [
+    {
+      "description": "a request for an user",
+      "provider_state": "user exists",
+      "request": {
+        "method": "get",
+        "path": "/user",
+        "query": ""
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "name": "Betty"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.0.0"
+  }
+}
